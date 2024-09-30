@@ -1,0 +1,213 @@
+/* Importa a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estiliza o corpo da página*/
+body {
+  font-family: "Poppins", sans-serif; /*Define a fonte padrão da página*/
+  background-color: #ECEEF2; /* Cor de fundo do sire */
+  display: flex; /* Usa flexbox para layout */
+  flex-direction: column;
+  align-itens: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o padding padrão */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+  font-size: 3.5rem; /* Define o tamanho da fonte dos títulos h1 */
+  color: #2D6E91; /* Define a cor dos títulos h1 */
+  text-align: center; /* Alinha o título ao centro */
+  letter-spacing: 0.1rem; /* Espaçamento interno entre letras */
+}
+
+/* Estiliza as imagens */
+img {
+  width: 600px; /* Largur das imagens */
+  height: 400px; /* Altura das imagens */
+}
+
+/* Estiliza as seções da página */
+section {
+  display: flex; /* Usa flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  align-items: flex-start; /* Alinha os itens na horizontal */
+  margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+  
+  /* Estiliza o resumo do site */
+  .resumo {
+    background: #FFFFFF;
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0 ,0.1); /*Sombra leve */
+  }
+  
+  /* Estiliza os resumos sobre as dúvidas */
+  .resumo-sobre {
+    background: #FFFFFF;
+    border-radius: 0.6rem; /*Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0, 0.1);
+    /*Sombra leve */
+  }
+  
+  /* Estiliza os resumos das páginas */
+  .paginas {
+    background: #FFFFFF;
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0, 0.1);
+    /* Sombra leve */
+  }
+  
+  /* Estiliza o titulo do resumo do site */
+  .resumo h2 {
+    font-size: 2.6rem; /* Tamanho da fonte */
+    color: #424226; /*Cor do texto */
+  }
+  
+  /* Estiliza os títulos dos resumos sobre as dúvidas */
+  .resumo-sobre h2 {
+    font-size: 2.0rem; /* Tamanho da fonte */
+    color: #432457; /* Cor do texto */
+  }
+  
+  /* Estiliza os títulos dos resumos das páginas */
+  .paginas h2 {
+    font-size: 2.0rem; /* Tamanho da fonte */
+    color: #432457; /* Cor do texto */
+  }
+  
+
+  /* Estiliza todos os outros links */
+  a {
+    color: #2D6E91; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+  }
+  
+  /* Estiliza os links dos resumos sobre as páginas quando são passados o mouse sobre */
+  a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  }
+  
+  /*Estiliza as dicas */
+  
+  li {
+    color: #38458C; /* Altera a cor do tópico*/
+    font-size: 1.5rem; /* Altera o tamanho do tópico */
+  }
+  
+  /* Estiliza os resumos das páginas */
+  
+  .resumo-pagina {
+    color: #1B1F26; /* Cor do texto */
+    font-size: 2.0rem; /* Tamanho do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+  }
+  
+  /* Estiliza o resumo sobre o site */
+  .resumo-site {
+    color: #1B1F26; /* Cor do texto */
+    font-size: 2.0rem; /* Tamanho do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+  }
+  
+  /* Estiliza os textos das páginas secundárias */
+  .resumo-sobre {
+    color: #1B1F26; /* Cor do texto */
+    font-size: 2.0rem; /* Tamanho do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+  }
+  
+  /* Estiliza o rodapé da página */
+  footer {
+    background-color: #ECEEF2; /* Cor de fundo do rodapé */
+    color: #1B1F26; /* Cor do texto */
+    font-size: 2rem; /* Tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+  }
+  
+  /* Estilização para telas menores */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem; /* Tamanho da fonte em telas menores */
+      letter-spacing: 0.1rem; /* Espaçamento entre letras em telas menores */
+    }
+    
+    img {
+      width: 500px; /* Largura das imagens em telas menores */
+      height: 300px; /* Altura das imagens em telas menores */
+    }
+    
+    .resumo h2 {
+      font-size: 2.4rem; /* Tamanho da fonte do título do resumo do site para telas menores */
+    }
+    
+    .resumo-sobre h2 {
+      font-size: 1.8rem; /* Tamanho da fonte dos títulos dos resumos das páginas em telas menores */
+    }
+    
+    .paginas h2 {
+      font-size: 1.8rem; /* Tamanho da fonte dos títulos em telas menores */
+    }
+    
+    .resumo-pagina {
+      font-size: 1.8rem; /* Tamanho dos textos em telas menores */
+    }
+    
+    .resumo-site {
+      font-size: 1.8rem; /* Tamanho dos textos em telas menores */
+    }
+    
+    .resumo-sobre {
+      font-size:1.8rem; /* Tamanho dos textos em telas menores */
+    }
+  }
+  
+  /* Responsividade para celulares */
+  @media (max-width: 480px) {
+    
+  h1 {
+    font-size: 2.1rem; /* Tamanho da fonte em telas pequenas */
+    letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+  }
+  
+  img {
+    width: 380px; /* Largura das imagens nos celulares */
+    height: 300px; /* Altura das imagens nos celulares */
+  }
+  
+  .resumo h2 {
+    font-size: 2.2rem; /* Tamanho da fonte dos títulos em telas menores */
+  }
+  
+  .resumo-sobre h2 {
+    font-size: 1.6rem; /* Tamanho da fonte dos títulos da classe resumo-sobre em telas menores */
+  }
+  
+  .paginas h2 {
+    font-size: 1.6rem; /* Tamanho da fonte dos títulos da classe paginas em telas menores */
+  }
+  
+  .resumo-pagina {
+    font-size: 1.2rem; /* Tamanho dos textos em telas pequenas */
+  }
+  
+  .resumo-site {
+    font-size: 1.2rem; /* Tamanho dos textos em telas pequenas */
+  }
+  
+  .resumo-sobre {
+    font-size: 1.2rem; /* Tamanho dos textos em telas pequenas */
+  }
+  
+  footer {
+    font-size: 0.6rem; /* Tamanho do rodapé em telas pequenas */
+  }
+
+}
