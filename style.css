@@ -4,7 +4,7 @@
 /* Estiliza o corpo da página*/
 body {
   font-family: "Poppins", sans-serif; /*Define a fonte padrão da página*/
-  background-color: #ECEEF2; /* Cor de fundo do sire */
+  background-color: #ECEEF2; /* Cor de fundo do site */
   display: flex; /* Usa flexbox para layout */
   flex-direction: column;
   align-itens: center; /* Centraliza os itens horizontalmente */
@@ -31,7 +31,7 @@ img {
 button {
   background-color: #626D82; /* blue */
   border: none;
-  color: black;
+  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
