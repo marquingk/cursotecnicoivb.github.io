@@ -27,6 +27,17 @@ img {
   height: 400px; /* Altura das imagens */
 }
 
+button {
+  background-color: #4792B3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+}
+
 /* Estiliza as seções da página */
 section {
   display: flex; /* Usa flexbox para layout */
